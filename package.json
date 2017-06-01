@@ -1,6 +1,6 @@
 {
-  "version": "5.2.0",
-  "name": "npm",
+  "version": "5.2.0-canary.0",
+  "name": "npmc",
   "description": "a package manager for JavaScript",
   "keywords": [
     "install",
@@ -29,7 +29,7 @@
   },
   "main": "./lib/npm.js",
   "bin": {
-    "npm": "./bin/npm-cli.js",
+    "npmc": "./bin/npm-cli.js",
     "npx": "./bin/npx-cli.js"
   },
   "dependencies": {
